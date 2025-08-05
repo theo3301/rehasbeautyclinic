@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reha Beauty</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="/Assets/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      .navbar-nav>.active>a {
+        color: #F9C6CA;
+        font-weight: bolder;
+      }
+      .para{
+        margin-left: 8px;
+      }
+      .text{
+        text-align: end;
+      }
+      .navimg{
+        width: 102px;
+      }
+      .bookBtn{
+        margin-top: -4px;
+      }
+      .clickForReha{
+        font-size: 17px;
+    }
+    
+    .container{
+      max-width: 100% !important;
+    }
+        @media(max-width:420px){
+          .clickForReha{
+        font-size: 14px;
+    }
+          .bookBtn{
+        margin-top: 4px;
+      }
+          .aboutimg2{
+            height: 120px;
+          }
+            .para{
+      margin-left: 10px;
+    }
+    .here{
+    /* width: 180%;
+    margin-left: -50px; */
+   }
+
+   .text{
+    text-align: center;
+   }
+        }
+
+        .navbar-nav>.active>a {
+        color: #F9C6CA;
+        font-weight: bold;
+        
+      }
+      .girl{
+        margin-left: 180px;
+        width: .25%;
+      }
+      .carsheight{
+        height: 27rem;
+      }
+
+      .text{
+        text-align: right;
+      }
+
+      .foot{
+        padding-right: 30px;
+      }
+
+      .up1{
+        background-image: url(Assets/skineone.png);
+      }
+
+      .up2{
+        background-image: url(Assets/mas.png);
+      }
+      .up3{
+        background-image: url(Assets/Mask\ group\ \(1\).png);
+      }
+
+      .up4{
+        background-image: url(Assets/image\ 16.png);
+      }
+      .up{
+        background-image: url(Assets/hero\ banner\ -\ bg.png);
+      }
+
+
+      /* style="font-size: 45px; line-height: 55px; " */
+
+      .pro{
+        font-size: 27px;
+        line-height: 27px;
+       
+      }
+
+      .probtn{
+        font-size: 22px;
+      }
+
+      .btntxt{
+        color: aliceblue;
+      }
+      .works{
+        display: none;
+      }
+      .work{
+        display: block;
+        height: 560px;
+      }
+
+      .servicing{
+        margin-bottom: 20px;
+      }
+
+      .sliderht{
+        height: 35rem;
+      }
+
+      .para{
+        margin-left: 8px;
+      }
+
+      .instagpdg{
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+      }
+
+      .bookBtn{
+        margin-top: -4px;
+      }
+
+      .navimg{
+        width: 102px;
+      }
+      .clickForReha{
+        font-size: 17px;
+    }
+
+    .active{
+      color: #4caf50;
+    }
+     @media (max-width: 420px) {
+      .companyHistory{
+        margin-top: 30px;
+      }
+      .clickForReha{
+        font-size: 14px;
+    }
+      .bookBtn{
+        margin-top: 4px;
+      }
+    body,html{
+      overflow-x: hidden;
+      width: 100%;
+                margin: 0 0;
+    }
+    .instagpdg{
+        padding-top: 4rem;
+        padding-bottom: 6rem;
+      }
+
+    .pro{
+      margin-top: 130px;
+    }
+    .servicing{
+        margin-bottom: 10px;
+      }
+      .navi{
+      margin-bottom: -10px;
+      width: 100%;
+      margin-right: 10px;
+    } 
+    .navimg{margin-left: -12px;}
+   .girl{
+    margin-left: 72px;
+    width: 50%;
+   }
+   .work{
+    display: none;
+   }
+    .works{
+    display: block;
+    }
+   .probtn{
+    width: 85%;
+    height: 45px;
+    /* padding: 0rem 0rem 2.5rem 6.5rem; */
+   }
+
+   .cont{
+    margin-top: -120px;
+   }
+   .text{
+    
+    text-align: center;
+   }
+   .here{
+    /* width: 180%;
+    margin-left: -50px; */
+   }
+   .max{
+    max-width: 150%;
+   }
+   .up1{
+    background-image: url(Assets/up1.png);
+    background-size: cover;
+    
+   }
+   .up2{
+        background-image: url(Assets/up2.png);
+        
+      }
+      .up3{
+        background-image: url(Assets/up3.png);
+      }
+
+      .up4{
+        background-image: url(Assets/up4.png);
+      }
+  .up{
+    background-image: url(Assets/up.png);
+  }
+  .btntxt{
+    color: aliceblue;
+    font-size: 14px;
+    /* margin-right: 88px;
+    margin-left: -17px; */
+    margin-top: -6px;
+    font-weight: 600;
+      }
+      .para{
+      margin-left: 10px;
+    }
+
+    .girl{
+      margin-left: 16px;
+      width: 87%;
+    }
+
+   
+    .gridimg1{
+      margin-left: -39px
+    }
+  }
+
+  @media(max-width:393px){
+    .gridimg1{
+      margin-left: -28px;
+    }
+  }
+
+  @media(min-width:1300px){
+     .two-columns {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+  }
+
+  @media(min-width:600px) and (max-width:1200px){
+   
+
+    .girl{
+      margin-left: -40px;
+    }
+
+    .probtn{
+      margin-top: -10px;
+    }
+  }
+
+  .certifiesed{
+    justify-content: space-around;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .rehaEarned{
+    text-align: center;
+    width: 35%;
+    padding: 10px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background: rgba(249, 198, 202, 0.5);
+;
+}
+.rehaExpretise{
+  padding: 10px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background: rgba(249, 198, 202, 0.5);
+}
+  @media (max-width:580px) {
+    .two-columns{
+      margin-left: 18px;
+    }
+    .imageWdthLogo{
+      width: 110px;
+    }
+    .FooterAddress{
+      font-size: 12px;
+      width: 150px;
+      text-align: left;
+    }
+    .fullNavAddress{
+      justify-content: space-between;
+    }
+    .testimonialSec {
+        margin-bottom: -12px;
+        margin-top: -12px;
+    }
+    .certifiesed{
+      flex-direction: column;
+      gap: 30px;
+    }
+    .rehaEarned{
+      width: 100%;
+    }
+    .phoneLogo{
+      display: none;
+    }
+  }
+    </style>
+   
+</head>
+    <body class="font-Montserrat">
+        <div class="bg-[#fff]">
+          <nav class="bg-white border-gray-200 dark:bg-white">
+            <div class=" max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 navi">
+              <a href="/" class="flex items-center">
+                  <img src="Assets/logo.png" class=" h-21 navimg" alt="Rhea Logo" />
+              </a>
+              <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 " aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-9 h-9" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+              </button>
+              <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul class="navbar-nav font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white ">
+                  <li class="nav-item" >
+                    <a href="/" class="block py-2 pl-3 pr-4  text-gray-900 rounded md:bg-transparent md:text-[#303030] md:p-0  " aria-current="page">Home</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a href="/AboutUs.html" class="block py-2 pl-3 pr-4  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#303030] md:p-0  ">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/Services.html" class="block py-2 pl-3 pr-4  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#303030] md:p-0    ">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="Gallery.html" class="block py-2 pl-3 pr-4  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#303030] md:p-0 ">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="ContactUs.html" class="block py-2 pl-3 pr-4  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#303030] md:p-0 ">Contact</a>
+                  </li>
+                  <button class="inline-flex text-[#303030] font-medium items-center bg-[#F9C6CA] border-0 py-2 px-27 focus:outline-none hover:bg-gray-200 w-24 rounded text-sm bookBtn "><p class="para"><a href="https://wa.me/9622212234">Book a Visit</a></p>
+                  </button>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+            <section class="text-gray-600 body-font bg-no-repeat bg-cover bg-bottom	" style="background-image: url(Assets/image\ 4.png)">
+                <div class="container mx-auto flex flex-col px-5  lg:pt-16 justify-center items-center">
+                <div class="w-full md:w-2/3 flex flex-col lg:mb-4  ">
+                    <h1 class="title-font sm:text-4xl text-3xl lg:mb-10 mb-6 font-medium text-[#DC747B] uppercase companyHistory text-center">Company history</h1>
+                    <p class="mb-4 text-center" style="text-align: justify; text-align-last: center;">Welcome to Reha’s, where a dream has blossomed into reality. From a young age, Reha was captivated by the art of beauty, seeing it as a form of engineering. Growing up amidst the breathtaking landscapes of Srinagar, she absorbed the natural beauty around her, which became an integral part of her being. <br/>
+
+                      Reha's dedication to her skincare routine was meticulous, always ensuring she looked her best. This inner passion evolved into a full-fledged career in the beauty industry, making her an unstoppable force today. <br/> <br/>
+                      
+                      <strong style="text-transform: uppercase;">Reha's journey is marked by numerous accomplishments and certifications:</strong>  <br/> </p>
+                      <!-- <ul style="list-style:disc; text-align: left; " >
+                        <li>
+                          <strong>Certified Professional in Skin Care:</strong> Reha earned her credentials from the prestigious Harshada Takke Skin Care Certification Board.
+                        </li>
+                        <li> <strong>Nail Art Expertise:</strong>  Her passion and talent for nail art have established her as an excellent nail artist.</li>
+                        <li>  <strong>Hair Styling Proficiency:</strong>  Trained by the renowned Bollywood hairstylist Kamal Palan, Reha's skills in hair styling are unmatched.</li>
+                        <li><strong>Makeup Mastery:</strong>  She realized her dream of being trained by the Jaywant Thakre Makeup Academy, one of India's premier makeover academies.</li>
+                      </ul> -->
+                      <div class="certifiesed">
+                        <p class="rehaEarned">
+                          <strong>Certified Professional in Skin Care:</strong> <br> Reha earned her credentials from the prestigious Harshada Takke Skin Care Certification Board.
+                        </p>
+                        <p class="rehaEarned"> <strong>Nail Art Expertise:</strong> <br>  Her passion and talent for nail art have established her as an excellent nail artist.</p>
+                      </div>
+                      <div class="certifiesed">
+                        <p class="rehaEarned">
+                          <strong>Hair Styling Proficiency:</strong> <br> Trained by the renowned Bollywood hairstylist Kamal Palan, Reha's skills in hair styling are unmatched.
+                        </p>
+                        <p class="rehaEarned"> <strong>Makeup Mastery:</strong> <br>  She realized her dream of being trained by the Jaywant Thakre Makeup Academy, one of India's premier makeover academies</p>
+                      </div>
+          <span class="rehaExpretise">
+                     <p class="text-center" style="text-transform: uppercase;" > <strong>Reha’s expertise extends to high-profile events and projects, including:</strong> </p> 
+                      <br/>
+                      <div class="two-columns">
+                        <ul style="list-style: disc;">
+                            <li>Fashion shows with choreographer Shakir Sheikh.</li>
+                            <li>The Zee Cine Awards.</li>
+                        </ul>
+                        <ul  style="list-style: disc;">
+                            <li>Bigg Boss with Amisha Patel.</li>
+                            <li>Numerous music albums and weddings.</li>
+                        </ul>
+                    </div>
+                  </span>
+                      <br/>
+                     <p class="text-center"> At Reha’s, we are committed to bringing the same level of passion and excellence to each client, ensuring they experience the beauty and care that Reha herself embodies. </p>
+                      <br/>
+                    <p class="text-center">  </p>
+           
+                </div>
+                </div>
+
+                <section class="text-gray-600 body-font">
+                    <div class="container px-5 py-1 mx-auto">
+                    <div class="flex flex-col text-center w-full lg:mb-10">
+                        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-[#DC747B] uppercase ">Team</h1>
+                    </div>
+                    <div class="flex flex-wrap -m-4 justify-center">
+                      <div class="p-4 lg:w-1/4 md:w-1/2">
+                        <div class="h-full flex flex-col items-center text-center">
+                            <img alt="team" class="flex-shrink-0 rounded-lg w-full h-70 object-cover object-center mb-4" src="Assets/5.jpg">
+                            <div class="w-full">
+                            <h2 class="title-font font-medium text-lg text-gray-900">Dr Disha Jaggi </h2>
+                            <!-- <h3 class="text-gray-500 mb-3">Stylist</h3> -->
+                            </div>
+                        </div>
+                        </div>
+                        <div class="p-4 lg:w-1/4 md:w-1/2">
+                        <div class="h-full flex flex-col items-center text-center">
+                            <img alt="team" class="flex-shrink-0 rounded-lg w-full h-70 object-cover object-center mb-4" src="Assets/1 (1).jpg">
+                            <div class="w-full">
+                            <h2 class="title-font font-medium text-lg text-gray-900">Uday Takke</h2>
+                            <!-- <h3 class="text-gray-500 mb-3">Owner and stylist</h3> -->
+                            </div>
+                        </div>
+                        </div>
+                        <div class="p-4 lg:w-1/4 md:w-1/2">
+                        <div class="h-full flex flex-col items-center text-center">
+                            <img alt="team" class="flex-shrink-0 rounded-lg w-full h-70 object-cover object-center mb-4" src="Assets/2.jpg">
+                            <div class="w-full">
+                            <h2 class="title-font font-medium text-lg text-gray-900">Jaywant Thakre</h2>
+                            <!-- <h3 class="text-gray-500 mb-3">Make up artists</h3> -->
+                            </div>
+                        </div>
+                        </div>
+                        
+                    </div>
+                    <div class="flex flex-wrap -m-4 justify-center">
+                        
+                        <div class="p-4 lg:w-1/4 md:w-1/2">
+                        <div class="h-full flex flex-col items-center text-center">
+                            <img alt="team" class="flex-shrink-0 rounded-lg w-full h-70 object-cover object-center mb-4" src="Assets/3.jpg">
+                            <div class="w-full">
+                            <h2 class="title-font font-medium text-lg text-gray-900">Kamal Palan</h2>
+                            <!-- <h3 class="text-gray-500 mb-3">Hair care specialist</h3> -->
+                            </div>
+                        </div>
+                        </div>
+                        <div class="p-4 lg:w-1/4 md:w-1/2">
+                        <div class="h-full flex flex-col items-center text-center">
+                            <img alt="team" class="flex-shrink-0 rounded-lg w-full h-70 object-cover object-center mb-4" src="Assets//4.jpg">
+                            <div class="w-full">
+                            <h2 class="title-font font-medium text-lg text-gray-900">Mrs. Harshada Takke </h2>
+                            <!-- <h3 class="text-gray-500 mb-3">Stylist</h3> -->
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </section>
+
+                <section class="text-gray-600 body-font">
+                    <div class="container px-5 py-10 mx-auto">
+                        <div class="flex flex-col text-center w-full lg:mb-8">
+                            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-[#DC747B] uppercase ">AWARDS & CERTIFICATES</h1>
+                        </div>
+                        <div class="flex flex-wrap -m-4 text-center justify-center">
+                           
+                            <div class="p-4 md:w-1/4 sm:w-1/2 w-full" data-modal-target="defaultModal2" data-modal-toggle="defaultModal2" class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
+                            <div class=" px-4 py-6 rounded-lg">
+                                <img src="Assets/share_pdf_exportpage1 (1).png" class="w-15  mb-3 inline-block" viewBox="0 0 24 24" />
+                               
+                            </div>
+                            </div>
+                            <div id="defaultModal2" tabindex="-1" aria-hidden="true" class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
+                              <div class="relative w-full max-w-2xl max-h-full">
+                                  <!-- Modal content -->
+                                  <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+                                      <!-- Modal header -->
+                                      
+                                      <!-- Modal body -->
+                                      <div class="p-6 space-y-6">
+                                          <img  src="Assets/share_pdf_exportpage1 (1).png"/>
+                                      </div>
+                                      <!-- Modal footer -->
+                                      
+                                  </div>
+                              </div>
+                          </div>
+                            <div class="p-4 md:w-1/4 sm:w-1/2 w-full" data-modal-target="defaultModal1" data-modal-toggle="defaultModal1" class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
+                            <div class=" px-4 py-6 rounded-lg">
+                                <img src="Assets/cream photo(2).png" class="w-15  mb-3 inline-block" viewBox="0 0 24 24" />
+                              
+                            </div>
+                            </div>
+                            <div id="defaultModal1" tabindex="-1" aria-hidden="true" class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
+                              <div class="relative w-full max-w-2xl max-h-full">
+                                  <!-- Modal content -->
+                                  <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+                                      <!-- Modal header -->
+                                      
+                                      <!-- Modal body -->
+                                      <div class="p-6 space-y-6">
+                                          <img  src="Assets/cream photo(2).png"/>
+                                      </div>
+                                      <!-- Modal footer -->
+                                      
+                                  </div>
+                              </div>
+                          </div>
+                            <div class="p-4 md:w-1/4 sm:w-1/2 w-full" data-modal-target="defaultModal" data-modal-toggle="defaultModal" class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
+                              <div class=" px-4 py-6 rounded-lg">
+                                  <img src="Assets/cream photo.png" class="w-15  mb-3 inline-block" viewBox="0 0 24 24" />
+                                
+                              </div>
+                              </div>
+
+                              <div id="defaultModal" tabindex="-1" aria-hidden="true" class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
+                                <div class="relative w-full max-w-2xl max-h-full">
+                                    <!-- Modal content -->
+                                    <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+                                        <!-- Modal header -->
+                                        
+                                        <!-- Modal body -->
+                                        <div class="p-6 space-y-6">
+                                            <img  src="Assets/cream photo.png"/>
+                                        </div>
+                                        <!-- Modal footer -->
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap -m-4 text-center justify-center">
+
+                          <div class="p-4 md:w-1/4 sm:w-1/2 w-full" data-modal-target="defaultModal3" data-modal-toggle="defaultModal3" class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
+                            <div class=" px-4 py-6 rounded-lg">
+                                <img src="Assets/share_exportpage0.png" class="w-15 h-15 mb-3 inline-block" viewBox="0 0 24 24" />
+                            </div>
+                            </div>
+
+                            <div id="defaultModal3" tabindex="-1" aria-hidden="true" class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
+                              <div class="relative w-full max-w-2xl max-h-full">
+                                  <!-- Modal content -->
+                                  <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+                                      <!-- Modal header -->
+                                      
+                                      <!-- Modal body -->
+                                      <div class="p-6 space-y-6">
+                                          <img  src="Assets/share_exportpage0.png"/>
+                                      </div>
+                                      <!-- Modal footer -->
+                                      
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                </section>
+
+            </section>
+            
+            <div>
+                <!-- <img src="Assets/banner.png" class="bg-no-repeat bg-center bg-cover container aboutimg" > -->
+                <img src="Assets/banner.png" class="bg-no-repeat bg-center bg-cover container aboutimg2" >
+            </div>
+
+            <footer class="text-gray-600 body-font">
+              <div class="container px-5 py-8 lg:pl-32 lg:pr-32 flex items-center lg:flex-row fullNavAddress ">
+                <div class=" flex-shrink-0 md:mx-0  mt-5 lg:mt-0  md:mt-0 ">
+                  <a class="flex title-font font-medium  md:justify-start justify-center text-gray-900">
+                      <img src="Assets/logo.png"  class="lg:w-21 h-21 text-white imageWdthLogo" viewBox="0 0 24 24" >
+                  </a>
+                </div>
+                <span class=" sm:ml-auto sm:mt-0 mt-8  sm:justify-center">
+                  <h2 class="title-font font-normal font-Montserrat text-gray-600 text text-md mb-3">Get in touch</h2>
+                  <nav class="list-none mb-10 FooterAddress">
+                    <li>
+                      <h2 style="display: flex; gap: 5px;" class=" bottom text-gray-600 font-Montserrat font-normal lg:text here	"><img src="./Assets/location-dot-solid.svg" class="phoneLogo" width="12px" alt=""><a href="https://www.google.com/maps/search/Bathimpressions+complex,+Main+market+chanapora,+Srinagar,+kashmir+pin+code+190015./@33.4836158,74.1976932,9z/data=!3m1!4b1?entry=ttu">Bathimpressions complex, Main market chanapora, Srinagar, kashmir pin code 190015.</a></h2>
+                    </li>
+                    <li class="">
+                      <h2  style="display: flex; gap: 5px;  justify-content: end;"  class="text-gray-600 font-Montserrat font-normal text	" class="phoneLogo"><img src="./Assets/phone-solid.svg" width="12px" alt="">Mobile phone:  <a href="tel:9622212234">9622212234</a></h2>
+                    </li>
+                  </nav>
+                </span>
+              </div>
+              <div class="bg-gray-100">
+                <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+                    <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center foot sm:justify-start">
+                      <p class="text-gray-500 text-xs text-center texttm sm:text-left"> © 2023 REHA’S BEAUTY CLINIC, All rights reserved
+                        
+                      </p>
+                  </span>
+                </div>
+              </div>
+            </footer>
+        </div>
+        <!-- <button  title="Contact Sale"
+        class="fixed z-50 bottom-10 right-8 bg-[#fff]  w-20 h-20 rounded-full drop-shadow-lg flex justify-center items-center hover:bg-gray-100 hover:drop-shadow-2xl  duration-300">
+        <img src="Assets/WhatsApp.png"  class="w-16 h-16 text-white p-2" viewBox="0 0 24 24" >
+
+      </button> -->
+      <button  title="Contact Sale"
+      class="fixed z-50 lg:bottom-10 bottom-2 lg:right-8 right-2  lg:h-20 h-20 whatsappBtn rounded-full drop-shadow-lg flex justify-center items-center  hover:drop-shadow-2xl  duration-300">
+      <!-- <i class="fa-brands fa-whatsapp w-16 h-16  p-2" style="color: #ffffff; background-color: green; border-radius: 40px;" viewBox="0 0 24 24"></i> -->
+      <a href="https://wa.me/9622212234"></a><div style='background-color: #4caf50; color: white;  font-weight: 500; padding: 0 4px; border-radius: 4px;' class="clickForReha">Book Appointment</div></a>
+      <a href="https://wa.me/9622212234"><img src="Assets/whatsapp (2).png"  class="lg:w-16 lg:h-16 w-16 h-16 lg:h-20 lg:w-20 text-white p-2" viewBox="0 0 24 24" ></a>
+    </button>
+
+    <script>
+      $(document).ready(function () {
+
+          $('ul.navbar-nav > li')
+                  .click(function (e) {
+              $('ul.navbar-nav > li')
+                  .removeClass('active');
+              $(this).addClass('active');
+          });
+      });
+  </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    </body>
+</html>
