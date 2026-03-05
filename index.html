@@ -1,566 +1,274 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="icon" type="image/x-icon" href="/Assets/favicon.png">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Reha Beauty </title>
-    <style>
 
-      .navbar-nav>.active>a {
-        color: #F9C6CA;
-        font-weight: bold;
-        
-      }
-      .girl{
-        margin-left: 90px;
-        width: .25%;
-      }
-      .carsheight{
-        height: 27rem;
-      }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      .text{
-        text-align: right;
-      }
+<title>Reha Beauty Clinic</title>
 
-      .foot{
-        padding-right: 30px;
-      }
+<link rel="icon" href="Assets/favicon.png">
 
-      .up1{
-        background-image: url(Assets/skineone.png);
-      }
+<script src="https://cdn.tailwindcss.com"></script>
 
-      .up2{
-        background-image: url(Assets/mas.png);
-      }
-      .up3{
-        background-image: url(Assets/Mask\ group\ \(1\).png);
-      }
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-      .up4{
-        background-image: url(Assets/Mask-group\ 1.png);
-      }
-      .up{
-        background-image: url(Assets/hero\ banner\ -\ bg.png);
-      }
+<style>
 
+body{
+font-family:'Montserrat',sans-serif;
+}
 
-      /* style="font-size: 45px; line-height: 55px; " */
+.hero{
+background:url("Assets/hero banner - bg.png");
+background-size:cover;
+background-position:center;
+}
 
-      .pro{
-        font-size: 27px;
-        line-height: 27px;
-       
-      }
-
-      .probtn{
-        font-size: 22px;
-      }
-
-      .btntxt{
-        color: aliceblue;
-      }
-      .works{
-        display: none;
-      }
-      .work{
-        display: block;
-        height: 560px;
-      }
-
-      .servicing{
-        margin-bottom: 20px;
-      }
-
-      .sliderht{
-        height: 35rem;
-      }
-
-      .para{
-        margin-left: 8px;
-      }
-
-      .instagpdg{
-        padding-top: 6rem;
-        padding-bottom: 6rem;
-      }
-
-      .bookBtn{
-        margin-top: -4px;
-      }
-
-      .navimg{
-        width: 102px;
-      }
-      .clickForReha{
-        font-size: 17px;
-    }
-
-    .testimonialSec{
-      height: 24rem;
-    }
-
-    .active{
-      color: #4caf50;
-    }
-     @media (max-width: 420px) {
-      .helloAbout{
-        padding: 10px 10px;
-      }
-     
-      .clickForReha{
-        font-size: 14px;
-    }
-      .bookBtn{
-        margin-top: 4px;
-      }
-    body,html{
-      overflow-x: hidden;
-      width: 100%;
-                margin: 0 0;
-    }
-    .instagpdg{
-        padding-top: 4rem;
-        padding-bottom: 6rem;
-      }
-
-    .pro{
-      margin-top: 130px;
-    }
-    .servicing{
-        margin-bottom: 10px;
-      }
-      .navi{
-      margin-bottom: -10px;
-      width: 100%;
-      margin-right: 10px;
-    } 
-    .navimg{margin-left: -12px;}
-   .girl{
-    margin-left: 72px;
-    width: 50%;
-   }
-   .work{
-    display: none;
-   }
-    .works{
-    display: block;
-    }
-   .probtn{
-    width: 85%;
-    height: 45px;
-    /* padding: 0rem 0rem 2.5rem 6.5rem; */
-   }
-
-   .cont{
-    margin-top: -80px;
-   }
-   .text{
-    
-    text-align: center;
-   }
-   .here{
-    /* width: 180%;
-    margin-left: -50px; */
-   }
-   .max{
-    max-width: 150%;
-   }
-   .up1{
-    background-image: url(Assets/up1.png);
-    background-size: cover;
-    
-   }
-   .up2{
-        background-image: url(Assets/up2.png);
-        
-      }
-      .up3{
-        background-image: url(Assets/up3.png);
-      }
-
-      .up4{
-        background-image: url(Assets/up4.png);
-      }
-  .up{
-    background-image: url(Assets/up.png);
-  }
-  .btntxt{
-    color: aliceblue;
-    font-size: 14px;
-    /* margin-right: 88px;
-    margin-left: -17px; */
-    margin-top: -6px;
-    font-weight: 600;
-      }
-      .para{
-      margin-left: 10px;
-    }
-
-    .girl{
-      margin-left: 16px;
-      width: 87%;
-    }
-
-   
-    .gridimg1{
-      margin-left: -39px
-    }
-  }
-
-  @media(max-width:393px){
-    .gridimg1{
-      margin-left: -28px;
-    }
-  }
-
-  @media(min-width:600px) and (max-width:1200px){
-   
-
-    .girl{
-      margin-left: -40px;
-    }
-
-    .probtn{
-      margin-top: -10px;
-    }
-  }
-
-  @media (min-width: 1300px){
-    .aboutUsContext{
-      width: 80%;
-      margin: auto;
-    }
-  }
-
-  @media (max-width:580px) {
-    .imageWdthLogo{
-      width: 110px;
-    }
-    .FooterAddress{
-      font-size: 12px;
-      width: 150px;
-      text-align: left;
-    }
-    .fullNavAddress{
-      justify-content: space-between;
-    }
-    .testimonialSec {
-        margin-bottom: -12px;
-        margin-top: -12px;
-    }
-    .phoneLogo{
-      display: none;
-    }
-  }
-  </style>
-
+</style>
 
 </head>
-<body class="font-Montserrat ">
-   
-           <!-- /* <header class="text-gray-600 body-font bg-[#fff]">
-            <div style="" class="container mx-auto flex flex-wrap px-20 flex-col md:flex-row items-center">
-              <a style="" class="flex title-font mb-1 md:mb-0">
-                <img src="Assets/logo.png"  class="w-21 h-21 text-white" viewBox="0 0 24 24" >
-              </a>
-              <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-                <a href="/index.html" class="mr-5 text-[#303030] font-Montserrat  font-medium hover:text-gray-900">Home</a>
-                <a href="/AboutUs.html" class="mr-5 text-[#303030] font-Montserrat  px-10 font-medium hover:text-gray-900">About Us</a>
-                <a href="/Services.html" class="mr-5 text-[#303030] font-Montserrat  font-medium hover:text-gray-900">Service</a>
-                <a class="mr-5 text-[#303030] font-Montserrat	px-10 font-medium hover:text-gray-900">Gallery</a>
-                <a class="mr-5 text-[#303030] font-Montserrat	 font-medium hover:text-gray-900">Event</a>
-                <a href="/ContactUs.html" class="mr-5 text-[#303030] font-Montserrat	 px-10 font-medium hover:text-gray-900">Contact</a>
-              </nav>
-              <button class="inline-flex text-[#303030] font-medium items-center bg-[#F9C6CA] border-0 py-2 px-4 focus:outline-none hover:bg-gray-200 rounded text-sm mt-4 md:mt-0">Book a Vist
-              </button>
-            </div>
-          </header>   */ -->
 
-          
-<nav class="bg-white border-gray-200 dark:bg-white">
-  <div class=" max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 navi">
-    <a href="/" class="flex items-center">
-        <img src="Assets/logo.png" class=" h-21 navimg" alt="Rhea Logo" />
-    </a>
-    <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 " aria-controls="navbar-default" aria-expanded="false">
-      <span class="sr-only">Open main menu</span>
-      <svg class="w-9 h-9" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-    </button>
-    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-      <ul class="navbar-nav font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white ">
-        <li class="nav-item active" >
-          <a href="/" class="block py-2 pl-3 pr-4  text-gray-900 rounded md:bg-transparent md:text-[#303030] md:p-0  " aria-current="page">Home</a>
-        </li>
-        <li class="nav-item">
-          <a href="/AboutUs.html" class="block py-2 pl-3 pr-4  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#303030] md:p-0">About Us</a>
-        </li>
-        <li class="nav-item">
-          <a href="/Services.html" class="block py-2 pl-3 pr-4  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#303030] md:p-0">Services</a>
-        </li>
-        <li class="nav-item">
-          <a href="Gallery.html" class="block py-2 pl-3 pr-4  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#303030] md:p-0">Gallery</a>
-        </li>
-        <li class="nav-item">
-          <a href="ContactUs.html" class="block py-2 pl-3 pr-4  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#303030] md:p-0">Contact</a>
-        </li>
-        <button class="inline-flex text-[#303030] font-medium items-center bg-[#F9C6CA] border-0 py-2 px-27 focus:outline-none hover:bg-gray-200 w-24 rounded text-sm bookBtn"><p class="para"><a href="https://wa.me/9622212234">Book a Visit</a></p>
-        </button>
-      </ul>
-    </div>
-  </div>
+
+<body class="bg-white text-gray-700">
+
+
+<!-- NAVBAR -->
+
+<header class="shadow-md bg-white">
+
+<div class="max-w-7xl mx-auto flex justify-between items-center p-5">
+
+<img src="Assets/logo.png" class="w-28">
+
+<nav class="hidden md:flex gap-10 font-medium">
+
+<a href="index.html" class="hover:text-pink-500">Home</a>
+
+<a href="AboutUs.html" class="hover:text-pink-500">About Us</a>
+
+<a href="Services.html" class="hover:text-pink-500">Services</a>
+
+<a href="Gallery.html" class="hover:text-pink-500">Gallery</a>
+
+<a href="ContactUs.html" class="hover:text-pink-500">Contact</a>
+
 </nav>
 
 
+<a href="https://wa.me/9622212234"
+class="bg-pink-400 hover:bg-pink-500 text-white px-6 py-2 rounded-full shadow">
 
-     
-          
-          <div id="default-carousel" class="relative w-full" data-carousel="slide">
-            <!-- Carousel wrapper -->
-            <div class="relative carsheight overflow-hidden  md:h-96">
-                <!-- Item 1 -->
-                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                  <div  class=" up bg-no-repeat bg-center bg-cover  mx-auto flex px-5 py-32 md:flex-row flex-col items-center">
-                    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-10 md:mb-0 items-center text-center  lg:pl-20  ">
-                      <h1  class="pro title-font sm:text-4xl lg:text-5xl mb-4 text-[#DC747B] font-bold tracking-wide font-Montserrat lg:mr-14">Your Complete
-                        <br class="hidden lg:inline-block">Professional Services
-                        <!-- <br class="hidden lg:inline-block"> -->
-                      </h1>
-                      <div class="flex justify-center">
-                        <button class=" probtn inline-flex bg-[#DC747B] border-0 py-2 lg:px-6 focus:outline-none rounded-lg hover:bg-[#F9C6CA] lg:mr-14  "><h2 class="btntxt"><a href="https://wa.me/9622212234">BOOK APPOINTMENT</a></h2></button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Item 2 -->
-                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                  <div  class="up1  bg-no-repeat bg-center bg-cover  mx-auto flex px-5 py-32 md:flex-row flex-col items-center">
-                    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center lg:pl-20 ">
-                      <!-- <h1  class="pro title-font sm:text-4xl  mb-4 text-[#DC747B] font-bold tracking-wide font-Montserrat lg:mr-14">Your Complete
-                        <br class="hidden lg:inline-block">Skin Care -->
-                        <h1  class="pro title-font sm:text-4xl lg:text-5xl  mb-4 text-[#DC747B] font-bold tracking-wide font-Montserrat lg:mr-14">Your Complete
-                          <br class="inline-block">Skin Care
-                      </h1>
-                      <div class="flex justify-center">
-                        <button class="probtn inline-flex text-white bg-[#DC747B] border-0 py-2 lg:px-6 focus:outline-none rounded-lg hover:bg-[#F9C6CA] lg:mr-14"><h2 class="btntxt"><a href="https://wa.me/9622212234">BOOK APPOINTMENT</a></h2></button>
-                      </div>
-                    </div>         
-                  </div>
-                </div>
-                <!-- Item 3 -->
-                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                  <div  class=" up2 bg-no-repeat bg-center bg-cover  mx-auto flex px-5 py-32 md:flex-row flex-col items-center">
-                    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center lg:pl-20 ">
-                      <h1 class="pro title-font sm:text-4xl lg:text-5xl  mb-4 text-[#DC747B] font-bold tracking-wide font-Montserrat lg:mr-14">Your Complete
-                        <br class=" lg:inline-block">Makeup
-                      </h1>
-                      <div class="flex justify-center">
-                        <button class="probtn inline-flex text-white bg-[#DC747B] border-0 py-2 lg:px-6 focus:outline-none rounded-lg hover:bg-[#F9C6CA]   lg:mr-14"><h2 class="btntxt"><a href="https://wa.me/9622212234">BOOK APPOINTMENT</a></h2></button>
-                      </div>
-                    </div>         
-                  </div>      </div>
-                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                  <div  class="up3 bg-no-repeat bg-center bg-cover  mx-auto flex px-5 py-32 md:flex-row flex-col items-center">
-                    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center lg:pl-20 ">
-                      <h1  class="pro title-font sm:text-4xl lg:text-5xl  mb-4 text-[#DC747B] font-bold tracking-wide font-Montserrat lg:mr-14">Your Complete
-                        <br class="lg:inline-block">Bridal Services
-                      </h1>
-                      <div class="flex justify-center">
-                        <button class="probtn inline-flex text-white bg-[#DC747B] border-0 py-2 lg:px-6 focus:outline-none rounded-lg hover:bg-[#F9C6CA]   lg:mr-14"><h2 class="btntxt"><a href="https://wa.me/9622212234">BOOK APPOINTMENT</a></h2></button>
-                      </div>
-                    </div>         
-                  </div>
-                </div>
-                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                  <div  class="up4 bg-no-repeat bg-center bg-cover  mx-auto flex px-5 py-32 md:flex-row flex-col items-center">
-                    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center lg:pl-20 ">
-                      <h1  class="pro title-font sm:text-4xl lg:text-5xl  mb-4 text-[#DC747B] font-bold tracking-wide font-Montserrat lg:mr-14">Your Complete
-                        <br class=" lg:inline-block">Hair Care
-                      </h1>
-                      <div class="flex justify-center">
-                        <button class="probtn inline-flex text-white bg-[#DC747B] border-0 py-2 lg:px-6 focus:outline-none rounded-lg hover:bg-[#F9C6CA]   lg:mr-14"><h2 class="btntxt"><a href="https://wa.me/9622212234">BOOK APPOINTMENT</a></h2></button>
-                      </div>
-                    </div>         
-                  </div>
-                </div>
-            </div>
-            <!-- Slider indicators -->
-            <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
-                <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
-                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
-                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 6" data-carousel-slide-to="4"></button>
-              
-            </div>
-          </div>
+Book Visit
+
+</a>
+
+</div>
+
+</header>
 
 
-          <section class="text-gray-600 body-font bg-no-repeat bg-cover bg-bottom	" style="background-image: url(Assets/Group\ 7.png)">
-            <div class=" mx-auto flex lg:p-20 p-10 md:flex-row flex-col ">
-              <div  class="lg:max-w-lg  lg:w-90 md:w-1/2  md:shrink-0 mb-10 md:mb-0 girl">
-                <img class="object-cover object-center rounded-[30px] girlimg  " alt="hero" src="Assets/reha_about-me-img.jpg">
-              </div>
-              <div class="mx-auto flex items-center justify-center flex-col ">
-                <div class="text-end w-full about  ">
-                  <h1 class="title-font text-center  text-4xl mb-4 font-medium text-[#DC747B] uppercase ">ABOUT US</h1>
-                  <p class="mb-4 leading-relaxed text-center aboutUsContext " style="text-align: justify; ;">Welcome to Reha’s, where beauty meets passion. Founded by Reha, whose love for beauty started in the picturesque valleys of Srinagar, our salon is a culmination of her lifelong dream. With extensive training and certifications from renowned institutions like the Harshada Takke Skin Care Certification Board and the Jaywant Thakre Makeup Academy, Reha brings unmatched expertise to every service.
-                    <br/>
-                    Our offerings include exceptional skin care, stunning nail art, and professional hair styling, honed under the guidance of Bollywood hairstylist Kamal Palan. Reha’s work has graced fashion shows, the Zee Cine Awards, Bigg Boss, and numerous weddings and music albums.
-                    <br/>
-                    At Reha’s, we are dedicated to making you look and feel your best. Join us and experience the artistry and care that define our brand.
-                    </p>
-                  <!-- <p class="mb-8 leading-relaxed text-center mx-5">Lorem ipsum dolor sit amet consectetur. Lorem ipsum imperdiet mauris eros et. Praesent curabitur turpis nunc ut.</p> -->
-                  <div class="flex justify-center">
-                    <a href="/AboutUs.html" class=" helloAbout inline-flex text-white bg-[#DC747B] uppercase border-0 py-3 lg:px-16 focus:outline-none  rounded text-sm">Know More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="cont container px-10 py-24 mx-auto">
-                  <div class="flex flex-col text-center w-full servicing">
-                    <h1 class=" title-font sm:text-4xl text-3xl mb-4 font-medium text-[#DC747B] uppercase">Our Services</h1>
-                  </div>
-                  <div class="flex flex-wrap ">
-                    <div class="p-4 lg:w-1/4 md:w-1/2">
-                      <div class="h-full flex flex-col items-center text-center">
-                       <a href="/Services.html"><img  alt="team" class="serv flex-shrink-0 overflow-hidden rounded-[30px] w-full h-56 object-cover object-center mb-4" src="Assets/person1.png"></a> 
-                      </div>
-                    </div>
-                    <div class="p-4 lg:w-1/4 md:w-1/2">
-                      <div class="h-full flex flex-col items-center text-center">
-                       <a href="/Services.html"> <img alt="team" class="serv flex-shrink-0 rounded-[30px] w-full h-56 object-cover object-center mb-4" src="Assets/div.portfolio-m__wrap (1).png"></a>
-                      </div>
-                    </div>
-                    <div class="p-4 lg:w-1/4 md:w-1/2">
-                      <div class="h-full flex flex-col items-center text-center">
-                        <a href="/Services.html"> <img alt="team" class="serv flex-shrink-0 rounded-[30px] w-full h-56 object-cover object-center mb-4" src="Assets/div.portfolio-m__wrap (2).png"></a>
-                      </div>
-                    </div>
-                    <div class="p-4 lg:w-1/4 md:w-1/2">
-                      <div class="h-full flex flex-col items-center text-center">
-                        <a href="/Services.html"> <img alt="team" class="serv flex-shrink-0 rounded-[30px] w-full h-56 object-cover object-center mb-4" src="Assets/div.portfolio-m__wrap.png"></a>
-                      </div>
-                    </div>
-                    
-                  </div>
-            </div>
-        </section>
-        
-        <div id="indicators-carousel" class="relative w-full" data-carousel="static">
-          <!-- Carousel wrapper -->
-          <div class="relative testimonialSec  overflow-hidden md:h-[560px]">
-              <!-- Item 1 -->
-              <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
-                  <img src="Assets/Group 13.png" class=" work absolute  w-full object-fill	 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                  <img src="Assets/testimonial 1_responsive.jpg" class=" works absolute w-full sliderht object-contain	 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-              </div>
-              <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
-                <img src="Assets/Group 14.png" class= " work absolute  w-full object-fill	 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                <img src="Assets/testimonial 2_responsive.jpg" class= " works absolute  w-full sliderht object-contain	 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-            </div>
-            <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
-              <img src="Assets/Group 15.png" class=" work absolute  w-full   object-fill	 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-              <img src="Assets/testimonial 3_responsive.jpg" class=" works absolute  w-full sliderht object-contain	 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+<!-- HERO -->
 
-          </div>
-          <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
-            <img src="Assets/Group 16.png" class=" work absolute  w-full   object-fill	 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-            <img src="Assets/testimonial 4_responsive.jpg" class=" works absolute  w-full sliderht object-contain	 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+<section class="hero text-white">
 
-        </div>
-          </div>
-          <!-- Slider indicators -->
-          <!-- <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
-              <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-              <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-              <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
-             
-          </div> -->
-          <!-- Slider controls -->
-          <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-              <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                  <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
-                  <span class="sr-only">Previous</span>
-              </span>
-          </button>
-          <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-              <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                  <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-                  <span class="sr-only">Next</span>
-              </span>
-          </button>
-        </div>
+<div class="max-w-7xl mx-auto px-6 py-32">
+
+<h1 class="text-5xl font-bold mb-6 text-pink-300">
+
+Your Complete  
+Professional Beauty Services
+
+</h1>
+
+<p class="text-lg mb-6 max-w-xl">
+
+Expert skin care, bridal makeup, hair styling and beauty services by certified professionals.
+
+</p>
+
+<a href="https://wa.me/9622212234"
+
+class="bg-pink-400 px-8 py-4 rounded-lg text-white font-semibold shadow-lg hover:bg-pink-500">
+
+Book Appointment
+
+</a>
+
+</div>
+
+</section>
 
 
-        <section class="text-gray-600 body-font bg-no-repeat bg-cover bg-left-bottom" style="background-image: url(Assets/Group\ 8.png)">
-          
-          </section>
+<!-- ABOUT -->
 
-          <footer class="text-gray-600 body-font">
-            <div class="container px-5 py-8 lg:pl-32 lg:pr-32 flex items-center lg:flex-row fullNavAddress ">
-              <div class=" flex-shrink-0 md:mx-0  mt-5 lg:mt-0  md:mt-0 ">
-                <a class="flex title-font font-medium  md:justify-start justify-center text-gray-900">
-                    <img src="Assets/logo.png"  class="lg:w-21 h-21 text-white imageWdthLogo" viewBox="0 0 24 24" >
-                </a>
-              </div>
-              <span class=" sm:ml-auto sm:mt-0 mt-8  sm:justify-center">
-                <h2 class="title-font font-normal font-Montserrat text-gray-600 text text-md mb-3">Get in touch</h2>
-                <nav class="list-none mb-10 FooterAddress">
-                  <li>
-                    <h2 style="display: flex; gap: 5px; " class=" bottom text-gray-600 font-Montserrat font-normal lg:text here	"> <img src="./Assets/location-dot-solid.svg" width="12px" alt="" class="phoneLogo"><a href="https://www.google.com/maps/search/Bathimpressions+complex,+Main+market+chanapora,+Srinagar,+kashmir+pin+code+190015./@33.4836158,74.1976932,9z/data=!3m1!4b1?entry=ttu">Bathimpressions complex, Main market chanapora, Srinagar, kashmir pin code 190015.</a> </h2>
-                  </li>
-                  <li class="">
-                    <h2 style="display: flex; gap: 5px; justify-content: end;" class="text-gray-600 font-Montserrat font-normal text	"><img src="./Assets/phone-solid.svg" width="12px" alt="" class="phoneLogo"> Mobile phone: <a href="tel:9622212234">9622212234</a></h2>
-                  </li>
-                </nav>
-              </span>
-            </div>
-            <div class="bg-gray-100">
-              <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-                  <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center foot sm:justify-start">
-                    <p class="text-gray-500 text-xs text-center texttm sm:text-left"> © 2023 REHA’S BEAUTY CLINIC, All rights reserved
-                      
-                    </p>
-                </span>
-              </div>
-            </div>
-          </footer>
-    </div>
+<section class="py-20">
+
+<div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-14 items-center px-6">
+
+<img src="Assets/reha_about-me-img.jpg"
+class="rounded-3xl shadow-xl">
+
+<div>
+
+<h2 class="text-4xl text-pink-500 font-semibold mb-6">
+
+About Us
+
+</h2>
+
+<p class="leading-relaxed mb-6">
+
+Welcome to Reha’s, where beauty meets passion. Founded by Reha, whose love for beauty started in the picturesque valleys of Srinagar. With extensive training and certifications from renowned institutions like the Harshada Takke Skin Care Certification Board and the Jaywant Thakre Makeup Academy.
+
+</p>
+
+<p class="leading-relaxed mb-6">
+
+Our offerings include exceptional skin care, stunning nail art, and professional hair styling, honed under the guidance of Bollywood hairstylist Kamal Palan.
+
+</p>
+
+<a href="AboutUs.html"
+
+class="bg-pink-400 text-white px-8 py-3 rounded-lg hover:bg-pink-500">
+
+Know More
+
+</a>
+
+</div>
+
+</div>
+
+</section>
 
 
-    
-  
-    <button  title="Contact Sale"
-      class="fixed z-50 lg:bottom-10 bottom-2 lg:right-8 right-2  lg:h-20 h-20 whatsappBtn rounded-full drop-shadow-lg flex justify-center items-center  hover:drop-shadow-2xl  duration-300">
-      <!-- <i class="fa-brands fa-whatsapp w-16 h-16  p-2" style="color: #ffffff; background-color: green; border-radius: 40px;" viewBox="0 0 24 24"></i> -->
-      <a href="https://wa.me/9622212234"> <div style='background-color: #4caf50; color: white;  font-weight: 500; padding: 0 4px; border-radius: 4px;' class="clickForReha">Book Appointment</div>
-      <a href="https://wa.me/9622212234"><img  src="Assets/whatsapp (2).png"  class="lg:w-16 lg:h-16 w-16 h-16 lg:h-20 lg:w-20 text-white p-2" viewBox="0 0 24 24" ></a>
-    </button>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+<!-- SERVICES -->
 
-    <script src="index.js">
-     
-  </script>
+<section class="bg-gray-50 py-20">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<h2 class="text-4xl text-center text-pink-500 font-semibold mb-16">
+
+Our Services
+
+</h2>
+
+<div class="grid md:grid-cols-4 gap-8">
+
+<a href="Services.html">
+
+<img src="Assets/person1.png"
+class="rounded-2xl shadow-lg hover:scale-105 transition">
+
+</a>
+
+<a href="Services.html">
+
+<img src="Assets/div.portfolio-m__wrap (1).png"
+class="rounded-2xl shadow-lg hover:scale-105 transition">
+
+</a>
+
+<a href="Services.html">
+
+<img src="Assets/div.portfolio-m__wrap (2).png"
+class="rounded-2xl shadow-lg hover:scale-105 transition">
+
+</a>
+
+<a href="Services.html">
+
+<img src="Assets/div.portfolio-m__wrap.png"
+class="rounded-2xl shadow-lg hover:scale-105 transition">
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- TESTIMONIAL -->
+
+<section class="py-20">
+
+<div class="max-w-7xl mx-auto text-center px-6">
+
+<h2 class="text-4xl text-pink-500 font-semibold mb-16">
+
+Client Testimonials
+
+</h2>
+
+<img src="Assets/Group 13.png" class="mx-auto rounded-xl shadow-lg">
+
+</div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer class="bg-gray-100 py-12">
+
+<div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10">
+
+<div>
+
+<img src="Assets/logo.png" class="w-32 mb-4">
+
+<p class="text-sm">
+
+Bathimpressions complex, Main market chanapora  
+Srinagar, Kashmir 190015
+
+</p>
+
+</div>
+
+<div class="md:text-right">
+
+<p class="mb-3">
+
+Mobile:  
+<a href="tel:9622212234" class="text-pink-500">
+
+9622212234
+
+</a>
+
+</p>
+
+<p class="text-sm text-gray-500">
+
+© 2023 REHA’S BEAUTY CLINIC  
+All rights reserved
+
+</p>
+
+</div>
+
+</div>
+
+</footer>
+
+
+<!-- WHATSAPP BUTTON -->
+
+<a href="https://wa.me/9622212234"
+
+class="fixed bottom-6 right-6 bg-green-500 p-4 rounded-full shadow-xl hover:scale-110 transition">
+
+<img src="Assets/whatsapp (2).png" class="w-10">
+
+</a>
+
+
 </body>
 </html>
-
-
-
-
-
-
-
-
-
